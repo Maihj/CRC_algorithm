@@ -1,0 +1,10 @@
+This is the implementation of CRC algorithm and I provide a simple example file named "file" to test it.
+
+HOW TO DO
+First of all, make files generator.c verifier.c alter.c on Linux.
+And then, 
+if you want to get the original text not modified, type:
+        "./generator <file | ./verifier"
+if you want to alter one bit of the message transmitted, type:
+        "c./generator <file | ./alter 1 | ./verifier".
+Of course, you can use your own test file instead.^_^
